@@ -1,0 +1,74 @@
+.wrap{
+        margin: 0 auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: self-end; */
+        height: 100vh;
+}
+.buttons-main{
+        display: flex;
+        width: 30%;
+        justify-content: space-evenly;
+        margin: 0 auto;
+}
+.button{
+        height: 6rem;
+        width: 6rem;
+        border-radius: 50%;
+        border: 1px solid black;
+        display: block;
+}
+#pink{
+        background-color: rgb(235, 65, 65);
+
+}
+#violet{
+        background-color: rgb(165, 109, 230);
+
+}
+#orange{
+        background-color: rgb(238, 186, 90);
+
+}
+#blue{
+        background-color: rgb(76, 76, 173);
+
+}
+
+@media(max-width: 991px){
+        .buttons-main {
+                display: flex;
+                width: 65%;
+        }
+}
+@media(max-width: 575px){
+        .buttons-main {
+                display: flex;
+                flex-direction: row;
+                width: 90%;
+        }
+        .button {
+                height: 5rem;
+                width: 5rem;
+        }
+}
+@media(max-width: 500px){
+        .buttons-main {
+                display: flex;
+                flex-direction: row;
+                width: 90%;
+        }
+        .button {
+                height: 4rem;
+                width: 4rem;
+        }
+}
+@media(max-width: 375px){
+        
+        .button {
+                height: 3.4rem;
+                width: 3.4rem;
+        }
+}
