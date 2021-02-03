@@ -25,7 +25,7 @@ My Javascript Projects
   </tr>
   <tr>
     <td>4</td>
-    <td><a href="https://rupalkachhwaha.github.io/All-JavaScript/04backgroundColorSwitcher/">Greeting Message</a></td>
+    <td><a href="https://rupalkachhwaha.github.io/All-JavaScript/04backgroundColorSwitcher/">Background Color Switcher</a></td>
    
   </tr>
   
